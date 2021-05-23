@@ -13,7 +13,7 @@ class CsvDatasetGenerator {
     }
  
     private boolean generateInts(long count) throws IOException {
-        File file = new File("Вставь сюда путь до папки dataset/data" + (++numOfTestData) + ".csv");
+        File file = new File("C:\\Users\\damir\\CLionProjects\\semester-work-quick-and-counting-sort\\dataset\\data" + (++numOfTestData) + ".csv");
         FileWriter fileWriter = new FileWriter(file);
  
         String data = "";
